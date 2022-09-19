@@ -1,0 +1,11 @@
+.main_container{
+    width: 60%;
+    border-right: 1px solid #eee;
+    margin-left: 10%;
+}
+h1{
+    color: red;
+}
+#foto_pizza{
+    width: 400px;
+}
