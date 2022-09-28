@@ -1,0 +1,6 @@
+.cartas{
+    display: flex;
+}
+.card-img-top{
+    height: 160px;
+}
