@@ -1,21 +1,24 @@
-.main_nav{
+.main_nav {
     padding: 0% 12% 0% 12%;
     height: 100px;
     display: flex;
     justify-content: space-between;
     background-color: #34393F;
     color: white;
+    ¿
 }
-.logo_codo{
+
+.logo_codo {
     display: flex;
     align-items: center;
     width: 30%;
 }
-#codo_a_codo_logo{
+
+#codo_a_codo_logo {
     width: 125px;
 }
 
-#lista_nav{
+#lista_nav {
     list-style: none;
     display: flex;
     align-items: center;
@@ -23,17 +26,18 @@
     width: 1000px;
 }
 
-.img_back_principal{
+.img_back_principal {
     color: white;
     height: 800px;
     background-image: url(../fotos/ba1.jpg);
-    background-size: cover; /* buen dato */
+    background-size: cover;
+    /* buen dato */
     display: flex;
     position: relative;
     align-items: center;
 }
 
-#texto_dentro_de_foto{
+#texto_dentro_de_foto {
     display: flex;
     flex-direction: column;
     width: 500px;
@@ -41,40 +45,46 @@
     position: absolute;
     right: 10%;
 }
-.oradores_texto{
+
+.oradores_texto {
     margin-top: 20px;
     text-align: center;
 }
-.oradores_texto p{
+
+.oradores_texto p {
     font-size: 15px;
     margin-bottom: 0px;
 }
-.oradores_texto h1{
+
+.oradores_texto h1 {
     font-size: 35px;
 }
 
-.card{
+.card {
     height: 575px;
 }
 
-.cartas{
+.cartas {
     display: flex;
     justify-content: space-evenly;
     padding-left: 3%;
     padding-right: 3%;
     margin-bottom: 50px;
 }
-.div_central{
+
+.div_central {
     display: flex;
 }
-.div_horizontal{
+
+.div_horizontal {
     width: 50%;
     height: 590px;
     background-image: url(../fotos/honolulu.jpg);
-    background-size: cover; /* buen dato */
+    background-size: cover;
+    /* buen dato */
 }
 
-.div_horizontal_derecha{
+.div_horizontal_derecha {
     width: 50%;
     height: 590px;
     background-color: #353A40;
@@ -82,57 +92,59 @@
     padding: 20px;
 }
 
-#conoce_mas{
+#conoce_mas {
     color: white;
     background-color: #353A40;
     border-color: white;
 }
 
-#comprar_tickets{
+#comprar_tickets {
     background-color: #39B33D;
     color: white;
 
 }
 
-#quiero_ser_orador{
+#quiero_ser_orador {
     border-color: white;
     background-color: transparent;
     color: white;
 }
 
-.formulario{
+.formulario {
     display: flex;
     justify-content: center;
 }
 
 
 
-.oradores_texto_2{
+.oradores_texto_2 {
     margin-top: 10px;
     text-align: center;
     width: 900px;
     margin-bottom: 100px;
 }
-.oradores_texto_2 p{
+
+.oradores_texto_2 p {
     font-size: 15px;
     margin-bottom: 0px;
 }
-.oradores_texto_2 h1{
+
+.oradores_texto_2 h1 {
     font-size: 35px;
 }
 
-#env_form{
+#env_form {
     width: 100%;
     background-color: #96C93E;
 }
 
-#recuerda{
+#recuerda {
     color: #BBB5B5;
     text-align: left;
     margin: 20px 0px 20px 0px;
 }
 
-.lista_footer{
+.lista_footer {
     list-style: none;
     display: flex;
     align-items: center;
@@ -142,18 +154,19 @@
     height: 150px;
 }
 
-.js_rc{
+.js_rc {
     width: 130px;
     display: flex;
     justify-content: space-between;
 }
-.neg_str{
+
+.neg_str {
     width: 155px;
     display: flex;
     justify-content: space-between;
 }
 
-#js{
+#js {
     text-align: center;
     border-radius: 6px;
     width: 80px;
@@ -161,7 +174,7 @@
     margin-bottom: 0px;
 }
 
-#rc{
+#rc {
     text-align: center;
     border-radius: 6px;
     width: 45px;
@@ -170,7 +183,7 @@
     margin-bottom: 0px;
 }
 
-#neg{
+#neg {
     text-align: center;
     border-radius: 6px;
     width: 75px;
@@ -179,7 +192,7 @@
     color: white;
 }
 
-#str{
+#str {
     text-align: center;
     border-radius: 6px;
     width: 75px;
@@ -188,7 +201,7 @@
     margin-bottom: 0px;
 }
 
-a{
+a {
     color: gray;
     text-decoration: none;
 }
