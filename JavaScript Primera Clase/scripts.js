@@ -11,12 +11,12 @@
 
 
 
-$('#botonSaludar').click(function(){
-    console.log("a");
-    let nombre = $("#nombreGente").val();
+// $('#botonSaludar').click(function(){
+//     console.log("a");
+//     let nombre = $("#nombreGente").val();
 
-    alert("Hola" + nombre);
-})
+//     alert("Hola" + nombre);
+// })
 
 // function saludar(){
 //     nombre = document.getElementById("nombre")
@@ -24,12 +24,16 @@ $('#botonSaludar').click(function(){
 // }
 
 
-// function saludar() {
+function saludar() {
 
-//     let nombreGente;
+    let nombreGente;
 
-//     nombreGente = document.getElementById("nombreGente").value;
-//     console.log(nombreGente);
-//     document.getElementById("saludo").innerHTML = "Hola " + nombreGente;
-//     document.getElementById("botonSaludar").style.display = "none";
-// }
+    nombreGente = document.getElementById("nombreGente").value;
+    console.log(nombreGente);
+    document.getElementById("saludo").innerHTML = "Hola " + nombreGente;
+    document.getElementById("botonSaludar").style.display = "none";
+} 
+
+
+let nombre = prompt("Cúal es tu nombre ?"); // abre una ventana con un input
+document.write("Hola "+ nombre);
